@@ -153,6 +153,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 0, 0, 0],
          "height":20,
          "id":1,
+         "locked":true,
          "name":"Upstairs area",
          "opacity":1,
          "type":"tilelayer",
@@ -184,6 +185,7 @@
             0, 0, 0, 0, 0, 0, 156, 405, 406, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":14,
+         "locked":true,
          "name":"Carpet 3",
          "opacity":1,
          "type":"tilelayer",
@@ -247,6 +249,7 @@
             3221226228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":15,
+         "locked":true,
          "name":"Decor downstars 1",
          "opacity":1,
          "type":"tilelayer",
@@ -446,6 +449,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":22,
+         "locked":true,
          "name":"UpsideDownBook",
          "opacity":1,
          "type":"tilelayer",
@@ -477,6 +481,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":33,
+         "locked":true,
          "name":"BookFlipped",
          "opacity":1,
          "properties":[
@@ -880,6 +885,17 @@
                  "id":49,
                  "name":"npc_snoopy",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#FFFF00"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -892,6 +908,17 @@
                  "id":51,
                  "name":"npc_leafeon",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#99ff33"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -904,6 +931,17 @@
                  "id":52,
                  "name":"npc_ares",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#FFA500"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":15
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -920,6 +958,7 @@
         {
          "draworder":"topdown",
          "id":26,
+         "locked":true,
          "name":"Interactables",
          "objects":[
                 {
@@ -1998,7 +2037,7 @@
                  "visible":true,
                  "width":0,
                  "x":528,
-                 "y":354
+                 "y":336
                 }, 
                 {
                  "height":0,

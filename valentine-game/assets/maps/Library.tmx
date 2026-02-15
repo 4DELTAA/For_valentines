@@ -102,7 +102,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="1" name="Upstairs area" width="30" height="20">
+ <layer id="1" name="Upstairs area" width="30" height="20" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -126,7 +126,7 @@
 0,0,0,0,0,0,0,0,0,0,0,1100,1101,1102,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,0,0,0
 </data>
  </layer>
- <layer id="14" name="Carpet 3" width="30" height="20">
+ <layer id="14" name="Carpet 3" width="30" height="20" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -174,7 +174,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="15" name="Decor downstars 1" width="30" height="20">
+ <layer id="15" name="Decor downstars 1" width="30" height="20" locked="1">
   <data encoding="csv">
 375,376,377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 437,438,439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -321,7 +321,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="22" name="UpsideDownBook" width="30" height="20">
+ <layer id="22" name="UpsideDownBook" width="30" height="20" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -345,7 +345,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="33" name="BookFlipped" width="30" height="20">
+ <layer id="33" name="BookFlipped" width="30" height="20" locked="1">
   <properties>
    <property name="startHidden" type="bool" value="true"/>
   </properties>
@@ -422,16 +422,28 @@
    <point/>
   </object>
   <object id="49" name="npc_snoopy" x="396" y="228">
+   <properties>
+    <property name="nameColor" value="#FFFF00"/>
+    <property name="nameFontSize" type="int" value="10"/>
+   </properties>
    <point/>
   </object>
   <object id="51" name="npc_leafeon" x="516" y="444">
+   <properties>
+    <property name="nameColor" value="#99ff33"/>
+    <property name="nameFontSize" type="int" value="10"/>
+   </properties>
    <point/>
   </object>
   <object id="52" name="npc_ares" x="528" y="354">
+   <properties>
+    <property name="nameColor" value="#FFA500"/>
+    <property name="nameFontSize" type="int" value="15"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="26" name="Interactables">
+ <objectgroup id="26" name="Interactables" locked="1">
   <object id="55" name="grandfather clock" x="362.667" y="59.4167" width="64.4167" height="23.25">
    <properties>
     <property name="aloiseFollowerDialogue" value="It's a grandfather clock"/>
@@ -640,7 +652,7 @@
    </properties>
    <point/>
   </object>
-  <object id="114" name="Ares talk" x="528" y="354">
+  <object id="114" name="Ares talk" x="528" y="336">
    <properties>
     <property name="choice1Dialogue" value="ohhhhhhhhhhhhh"/>
     <property name="choice1HelpScore" type="int" value="10"/>

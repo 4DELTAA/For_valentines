@@ -298,6 +298,10 @@
    <point/>
   </object>
   <object id="38" name="npc_xia" x="88" y="120">
+   <properties>
+    <property name="nameColor" value="#FF0000"/>
+    <property name="nameFontSize" type="int" value="10"/>
+   </properties>
    <point/>
   </object>
   <object id="39" name="npc_glad" x="264" y="136">
@@ -551,6 +555,8 @@
     <property name="choicePrompt" value="Help Aloise?"/>
     <property name="dialogue" value="Hey Mimi!! I forgot what to do, so I'm kind of just standing here in the middle of nowhere.."/>
     <property name="id" value="Aloise"/>
+    <property name="nameColor" value="#32004F"/>
+    <property name="nameFontSize" type="int" value="10"/>
     <property name="npcId" value="Aloise"/>
     <property name="prompt" value="Talk to Aloise"/>
     <property name="speaker" value="Aloise"/>
@@ -580,7 +586,7 @@
     <property name="choice1Text" value="Lamp post"/>
     <property name="choice1Waypoints" value="npc_glad_lamp_wp1, npc_glad_lamp_wp2, npc_glad_lamp_wp3"/>
     <property name="choice2Dialogue" value="I'll head there, thanks!"/>
-    <property name="choice2HelpScore" type="int" value="10"/>
+    <property name="choice2HelpScore" type="int" value="4"/>
     <property name="choice2MarkHelped" value="Glad"/>
     <property name="choice2PostDialogue" value="This is a nice hiding spot, thanks"/>
     <property name="choice2Text" value="Alley"/>
@@ -588,6 +594,8 @@
     <property name="choicePrompt" value="Where should Glad hide?"/>
     <property name="dialogue" value="Psst.."/>
     <property name="dialogue2" value="I have a stalker and I need help hiding. Don't ask any follow-up questions"/>
+    <property name="nameColor" value="#00800"/>
+    <property name="nameFontSize" type="int" value="10"/>
     <property name="npcId" value="Glad"/>
     <property name="prompt" value="Talk with Glad"/>
     <property name="sagaFollowerChoice1Dialogue" value="No this is crazy.. How did you even get Saga in on this 😭"/>

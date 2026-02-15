@@ -489,6 +489,10 @@
    <point/>
   </object>
   <object id="70" name="npc_mona" x="168" y="72">
+   <properties>
+    <property name="nameColor" value="#fe5d9f"/>
+    <property name="nameFontSize" type="int" value="10"/>
+   </properties>
    <point/>
   </object>
   <object id="72" name="spawn_from_city" x="8" y="24">
@@ -501,6 +505,10 @@
    <point/>
   </object>
   <object id="131" name="npc_saga" x="312" y="344">
+   <properties>
+    <property name="nameColor" value="#7f00ff"/>
+    <property name="nameFontSize" type="int" value="12"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
@@ -789,6 +797,8 @@
     <property name="choicePrompt" value="What do you do?"/>
     <property name="dialogue" value="Hey Mimi!! I forgot what to do, so I'm kind of just standing here in the middle of nowhere.."/>
     <property name="id" value="Saga"/>
+    <property name="nameColor" value="#7f00ff"/>
+    <property name="nameFontSize" type="int" value="12"/>
     <property name="npcId" value="Saga"/>
     <property name="postDialogue" value="It's okay. I can stay here I guess.."/>
     <property name="postDialogue2" value="(Saga seems to be sad)"/>

@@ -753,6 +753,17 @@
                  "id":38,
                  "name":"npc_xia",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#FF0000"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1861,6 +1872,16 @@
                          "value":"Aloise"
                         }, 
                         {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#32004F"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }, 
+                        {
                          "name":"npcId",
                          "type":"string",
                          "value":"Aloise"
@@ -1996,7 +2017,7 @@
                         {
                          "name":"choice2HelpScore",
                          "type":"int",
-                         "value":10
+                         "value":4
                         }, 
                         {
                          "name":"choice2MarkHelped",
@@ -2034,11 +2055,21 @@
                          "value":"I have a stalker and I need help hiding. Don't ask any follow-up questions"
                         }, 
                         {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#00800"
+                        },
+                    
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }, 
+                        {
                          "name":"npcId",
                          "type":"string",
                          "value":"Glad"
-                        },
-                    
+                        }, 
                         {
                          "name":"prompt",
                          "type":"string",

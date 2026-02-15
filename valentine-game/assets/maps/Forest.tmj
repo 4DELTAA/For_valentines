@@ -768,7 +768,7 @@
                  "y":176
                 }, 
                 {
-                 "height":10.5628205128205,
+                 "height":10.5628,
                  "id":34,
                  "name":"",
                  "rotation":0,
@@ -776,7 +776,7 @@
                  "visible":true,
                  "width":11.125,
                  "x":282.25,
-                 "y":214.09358974359
+                 "y":214.094
                 }, 
                 {
                  "height":16,
@@ -1261,8 +1261,8 @@
                  "type":"",
                  "visible":true,
                  "width":11.125,
-                 "x":330.1875,
-                 "y":212.7186
+                 "x":330.188,
+                 "y":212.719
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1294,6 +1294,17 @@
                  "id":70,
                  "name":"npc_mona",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#fe5d9f"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":10
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1342,6 +1353,17 @@
                  "id":131,
                  "name":"npc_saga",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#7f00ff"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":12
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2650,6 +2672,16 @@
                          "value":"Saga"
                         }, 
                         {
+                         "name":"nameColor",
+                         "type":"string",
+                         "value":"#7f00ff"
+                        }, 
+                        {
+                         "name":"nameFontSize",
+                         "type":"int",
+                         "value":12
+                        }, 
+                        {
                          "name":"npcId",
                          "type":"string",
                          "value":"Saga"
@@ -2678,7 +2710,8 @@
                          "name":"prompt",
                          "type":"string",
                          "value":"Talk to Saga"
-                        }, 
+                        },
+                    
                         {
                          "name":"speaker",
                          "type":"string",
