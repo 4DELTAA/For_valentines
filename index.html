@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Valentine Game</title>
+  <style>
+  @font-face {
+    font-family: "GameFont";
+    src: url("assets/fonts/GameFont4.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  body { margin: 0; background: black; }
+  canvas { display: block; margin: auto; }
+
+  /* Force-load the font early */
+  body::before{
+    content:"";
+    font-family:"GameFont";
+    position:absolute;
+    left:-9999px;
+  }
+
+  #err {
+    position: fixed; left: 0; top: 0; right: 0; bottom: 0;
+    padding: 12px; white-space: pre-wrap;
+    font: 12px/1.35 monospace; color: #ffb3b3;
+    background: rgba(0,0,0,0.85);
+    display: none; z-index: 9999;
+  }
+</style>
+
+
+</head>
+<body>
+  <pre id="err"></pre>
+
+  <script>
+    const errEl = () => document.getElementById("err");
+    window.addEventListener("error", (e) => {
+      const el = errEl(); el.style.display = "block";
+      el.textContent = `ERROR: ${e.message}\n${e.filename || ""}:${e.lineno || ""}:${e.colno || ""}\n\n${e.error?.stack || ""}`;
+    });
+    window.addEventListener("unhandledrejection", (e) => {
+      const el = errEl(); el.style.display = "block";
+      el.textContent = `PROMISE REJECTION:\n${String(e.reason?.stack || e.reason || e)}`;
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="29" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="125">
+ <editorsettings>
+  <export target="City.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Kenney city" tilewidth="16" tileheight="16" tilecount="486" columns="27">
+  <image source="../images/tilesets/city_tilemap_packed.png" width="432" height="288"/>
+ </tileset>
+ <layer id="1" name="BaseFloor" width="29" height="21" locked="1">
+  <data encoding="csv">
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+442,442,442,442,442,442,442,442,442,463,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,
+442,469,442,442,442,469,442,469,442,463,442,469,442,469,442,469,442,469,442,469,442,469,442,469,442,469,442,469,442,
+434,434,434,434,434,434,434,434,434,442,434,434,434,434,434,434,434,434,434,434,434,434,434,434,442,434,434,434,434,
+469,442,469,442,469,442,469,442,442,463,469,442,469,442,442,442,469,442,469,442,469,442,469,442,442,442,469,442,469,
+442,442,442,442,442,442,442,469,442,463,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,442,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,469,442,463,442,442,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37
+</data>
+ </layer>
+ <layer id="2" name="Second Floor" width="29" height="21" locked="1">
+  <data encoding="csv">
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,199,199,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,199,199,29,29,30,435,436,437,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,29,29,29,29,29,30,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+56,56,56,56,56,56,56,57,462,0,464,63,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+407,407,407,406,407,407,407,407,468,0,467,407,407,407,407,406,407,407,407,407,407,407,407,407,406,407,407,407,407,
+0,0,0,433,0,0,0,0,0,0,0,0,0,0,0,433,0,0,0,0,0,0,0,0,433,0,0,0,0,
+461,461,461,460,461,461,461,461,441,0,440,461,461,461,461,460,461,461,461,461,461,461,461,461,460,461,461,461,461,
+10,10,10,10,10,10,10,11,462,0,464,9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+0,0,0,0,0,0,0,38,462,0,464,36,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,435,436,437,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,38,462,0,464,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="weak building" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,20,21,23,18,20,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,99,101,75,77,99,101,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,74,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="weak decor" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,0,420,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,447,447,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,474,474,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,110,110,110,110,111,0,144,96,118,118,118,118,119,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,110,110,110,85,86,0,283,117,118,118,118,118,119,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,112,113,137,137,137,112,113,0,0,117,118,118,118,118,119,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,125,129,130,130,130,131,125,0,0,144,145,145,145,145,146,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,152,156,157,157,157,158,152,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,179,183,184,184,184,185,179,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,206,210,211,211,211,212,206,0,0,387,388,388,388,388,389,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+119,0,325,83,83,326,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+119,0,352,110,110,353,381,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+119,0,379,137,137,380,381,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+150,0,18,19,19,20,381,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+125,0,45,46,46,47,0,0,0,0,0,0,126,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,128
+</data>
+ </layer>
+ <layer id="5" name="walkable decor" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,415,416,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,67,67,67,67,68,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="unwalkable decor" width="29" height="21" locked="1">
+  <data encoding="csv">
+289,290,291,260,29,238,0,30,0,0,0,193,0,0,0,0,0,334,0,0,274,0,0,0,0,0,0,0,349,
+293,29,29,29,29,265,260,30,222,0,222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,29,171,172,172,173,29,30,0,0,0,0,0,0,0,0,0,0,0,0,218,220,0,0,0,0,0,0,0,
+0,29,198,174,175,200,29,30,272,0,0,0,0,0,0,0,0,0,0,0,383,385,0,0,0,0,0,0,0,
+0,29,198,201,202,200,29,30,0,308,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+260,29,225,226,226,227,29,30,0,0,298,0,0,0,0,418,0,418,0,0,280,0,0,0,0,0,0,0,0,
+0,29,29,29,29,29,0,30,308,0,0,0,192,0,0,256,0,256,0,0,0,37,330,330,330,330,330,330,0,
+261,29,29,29,29,29,197,30,0,0,0,0,306,0,0,0,0,0,0,0,0,0,254,0,0,0,0,0,0,
+56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,214,454,455,424,425,478,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+193,0,0,0,0,0,0,0,0,0,0,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,382,382,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,355,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,276,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,244,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,363,363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,390,390,0,0,0,0,0,0,0,0,363,363,0,0,364,391,364,364,0,0,391,363,391,391,0,0
+</data>
+ </layer>
+ <layer id="16" name="disappearing door" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,286,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="TileOverPlayer" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+239,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+234,0,0,0,0,0,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,397,398,451,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,
+0,0,0,0,0,0,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Roof" width="29" height="21" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,90,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,92,
+0,0,0,0,0,0,0,0,0,0,0,0,97,118,97,118,90,148,149,118,97,118,118,97,118,118,90,91,92,
+0,0,0,0,0,0,0,0,0,0,0,0,124,145,124,118,117,144,145,118,124,118,118,124,118,118,117,97,119,
+0,0,0,0,0,0,0,0,0,0,0,0,117,118,119,118,117,145,146,118,124,118,118,124,118,118,117,124,119,
+0,0,0,0,0,0,0,0,0,0,0,0,124,91,124,118,117,117,118,118,124,118,118,124,118,118,117,151,119,
+0,0,0,0,0,0,0,0,0,0,0,0,151,118,151,118,144,148,149,118,120,149,118,120,149,118,144,145,146,
+0,0,0,0,0,0,0,0,0,0,0,0,144,145,145,145,145,145,145,145,145,145,145,145,145,145,145,145,146,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Collideables" locked="1">
+  <object id="3" x="208" y="0" width="112" height="112"/>
+  <object id="4" x="323.75" y="82.875" width="8.5" height="11.125"/>
+  <object id="5" x="320" y="48" width="32" height="16"/>
+  <object id="6" x="352" y="0" width="96" height="112"/>
+  <object id="7" x="352" y="112" width="16" height="16"/>
+  <object id="8" x="192" y="208" width="272" height="112"/>
+  <object id="9" x="0" y="224" width="16" height="112"/>
+  <object id="11" x="32" y="256" width="64" height="80"/>
+  <object id="12" x="96" y="272" width="13.2727" height="48"/>
+  <object id="13" x="64.25" y="211.75" width="31.75" height="12.25"/>
+  <object id="14" x="100.125" y="208" width="8.125" height="16"/>
+  <object id="15" x="0" y="112" width="16" height="16"/>
+  <object id="16" x="0" y="80" width="16" height="16"/>
+  <object id="18" x="0" y="16" width="16" height="16"/>
+  <object id="20" x="0" y="0" width="64" height="16"/>
+  <object id="22" x="80" y="0" width="16.5" height="32"/>
+  <object id="23" x="34.875" y="224.125" width="8.875" height="15.875"/>
+  <object id="24" x="68.7273" y="144" width="86.1818" height="16"/>
+  <object id="25" x="102.125" y="112.125" width="5" height="13.625"/>
+  <object id="26" x="132.25" y="100" width="7.75" height="10.25"/>
+  <object id="27" x="128" y="51.75" width="16" height="11.25"/>
+  <object id="28" x="147.625" y="68.125" width="8.375" height="10.125"/>
+  <object id="29" x="160" y="84.125" width="16" height="10.75"/>
+  <object id="30" x="160" y="20.125" width="16" height="11.125"/>
+  <object id="31" x="128" y="19.125" width="16" height="11.75"/>
+  <object id="32" x="186" y="192" width="4.875" height="14"/>
+  <object id="34" x="202.375" y="96.125" width="4.625" height="13.375"/>
+  <object id="70" x="448" y="0" width="16" height="16"/>
+  <object id="71" x="32" y="32" width="64" height="64"/>
+  <object id="72" x="50" y="146.375" width="11.75" height="13.625"/>
+  <object id="75" x="194.5" y="113.625" width="10.25" height="13.125"/>
+  <object id="76" x="454.727" y="192" width="3.36364" height="13.8182"/>
+  <object id="77" x="96" y="16" width="16" height="16"/>
+  <object id="78" x="182.125" y="0.0625" width="4.75" height="13.8125"/>
+  <object id="91" x="0" y="192" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="11" name="Points" locked="1">
+  <object id="37" name="spawnpoint" x="40" y="120">
+   <point/>
+  </object>
+  <object id="38" name="npc_xia" x="88" y="120">
+   <point/>
+  </object>
+  <object id="39" name="npc_glad" x="264" y="136">
+   <point/>
+  </object>
+  <object id="44" name="spawn_from_forest" x="456" y="168">
+   <point/>
+  </object>
+  <object id="69" x="456" y="168">
+   <point/>
+  </object>
+  <object id="99" name="npc__glad_alley_wp1" x="328" y="136">
+   <point/>
+  </object>
+  <object id="100" name="npc_glad_alley_wp2" x="328" y="104">
+   <point/>
+  </object>
+  <object id="101" name="npc_glad_alley_wp3" x="344" y="104">
+   <point/>
+  </object>
+  <object id="102" name="npc_glad_alley_wp4" x="344" y="72">
+   <point/>
+  </object>
+  <object id="103" name="npc_glad_alley_wp5" x="328" y="72">
+   <point/>
+  </object>
+  <object id="104" name="npc_glad_lamp_wp1" x="184" y="136">
+   <point/>
+  </object>
+  <object id="105" name="npc_glad_lamp_wp2" x="184" y="88">
+   <point/>
+  </object>
+  <object id="106" name="npc_glad_lamp_wp3" x="200" y="88">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="Interactables">
+  <object id="55" name="morse_code_text" x="448" y="320" width="16" height="16">
+   <properties>
+    <property name="dialogue" value=".. .-.. -.--"/>
+    <property name="id" value="morse_code_text"/>
+    <property name="prompt" value="Inspect ???"/>
+    <property name="sfx" value="ily"/>
+    <property name="sfxBase" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="57" name="traffic_light text" x="176" y="192" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="The lights seem static. Much like that old man over there"/>
+    <property name="dialogue2" value="No wonder there is so much traffic"/>
+    <property name="id" value="traffic_light_text"/>
+    <property name="prompt" value="Inspect traffic light"/>
+   </properties>
+  </object>
+  <object id="58" name="mailbox text" x="192" y="112" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="There's a love letter inside.. snatched!"/>
+    <property name="dialogue2" value="There are old newspapers and pieces of gum. Someone clearly doesn't take care of their own mailbox..."/>
+    <property name="dialoguegiveitem" value="loveletter"/>
+    <property name="id" value="mailbox_text"/>
+    <property name="preSfx" value="item_gained"/>
+    <property name="preSfxBase" type="int" value="25"/>
+    <property name="preSfxOnce" type="bool" value="true"/>
+    <property name="prompt" value="Check mailbox"/>
+   </properties>
+  </object>
+  <object id="59" name="Bushlady text" x="80.6667" y="1.33333" width="16" height="32">
+   <properties>
+    <property name="choice1Dialogue" value="Aww thank you!! That's so nice"/>
+    <property name="choice1Dialogue2" value="We're taking a stroll at the park right now"/>
+    <property name="choice1Dialogue2Sfx" value="bushrustle"/>
+    <property name="choice1Dialogue3" value="We have been together here for 3 years now"/>
+    <property name="choice1Dialogue3Sfx" value="bushrustle"/>
+    <property name="choice1DialogueSfx" value="bushrustle"/>
+    <property name="choice1MarkHelped" value="bushlady"/>
+    <property name="choice1Text" value="Compliment the bush people"/>
+    <property name="choice2Dialogue" value="BITCH"/>
+    <property name="choice2Dialogue2" value="I'LL KILL YOU"/>
+    <property name="choice2Dialogue2Sfx" value="bushrustle"/>
+    <property name="choice2Dialogue2SfxBase" type="int" value="100"/>
+    <property name="choice2Dialogue3" value="WE ARE A PERFECT COUPLE"/>
+    <property name="choice2Dialogue3Sfx" value="bushrustle"/>
+    <property name="choice2Dialogue3SfxBase" type="int" value="100"/>
+    <property name="choice2DialogueSfx" value="bushrustle"/>
+    <property name="choice2DialogueSfxBase" type="int" value="100"/>
+    <property name="choice2MarkHelped" value="bushlady"/>
+    <property name="choice2Text" value="Insult them"/>
+    <property name="choice3Dialogue" value="..."/>
+    <property name="choice3Text" value="Get away from the strange people"/>
+    <property name="choicePrompt" value="How do you greet them?"/>
+    <property name="dialogue" value="I love my husband"/>
+    <property name="dialogue2" value="We are such a great couple"/>
+    <property name="dialogue2sfx" value="bushrustle"/>
+    <property name="dialogueSfx" value="bushrustle"/>
+    <property name="id" value="bushlady"/>
+    <property name="postPrompt" value="Check on the bush people"/>
+    <property name="prompt" value="Inspect bush lady"/>
+    <property name="speaker" value="BushLady"/>
+   </properties>
+  </object>
+  <object id="60" name="house text" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="It's locked. Someone definitely lives here."/>
+    <property name="dialogue2" value="Still locked."/>
+    <property name="dialogue3" value="Knock knock? No ones there!!"/>
+    <property name="dialogue4" value="Is this considered invasion of privacy? Maybe even vandalism.."/>
+    <property name="dialogue5" value="I'm running out of lines here, stop!"/>
+    <property name="dialogue6" value="Did you know that most of the buildings here actually have faces? YEAH YOU'RE HURTING A PERSON RIGHT NOW!!"/>
+    <property name="dialogue7" value="Fine!! You asked for it"/>
+    <property name="hidelayer" value="disappearing door"/>
+    <property name="id" value="house_text"/>
+    <property name="maxUses" value="7"/>
+    <property name="prompt" value="Knock on door"/>
+    <property name="removeinteraction" value="house_text"/>
+    <property name="sfx" value="knock"/>
+    <property name="sfxBase" type="int" value="14"/>
+    <property name="sfxMax" type="int" value="80"/>
+    <property name="sfxStep" type="int" value="8"/>
+    <property name="shake" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="66" name="Creator before" x="16" y="320" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="I'm trying to make something cool, but I don't have enough time.."/>
+    <property name="dialogue2" value="If only time slowed down"/>
+    <property name="disabledIfFlags" value="quest_grandfatherclock_done"/>
+    <property name="id" value="city_help_before"/>
+    <property name="prompt" value="Inspect ???"/>
+    <property name="sequenceDialogue" type="bool" value="true"/>
+    <property name="speaker" value="Creator"/>
+   </properties>
+  </object>
+  <object id="80" name="Directions text" x="448" y="176" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="Seems like the forest is this way."/>
+    <property name="id" value="Directions_text"/>
+    <property name="prompt" value="Inspect sign"/>
+   </properties>
+  </object>
+  <object id="82" name="trashcan text" x="352" y="112" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="Ew.."/>
+    <property name="dialogue2" value="Disgusting.."/>
+    <property name="dialogue3" value="What is wrong with you?"/>
+    <property name="id" value="trashcan_text"/>
+    <property name="loopDialogue" type="bool" value="true"/>
+    <property name="preSfx" value="trashcan"/>
+    <property name="preSfxBase" type="int" value="50"/>
+    <property name="preSfxDelayMs" type="int" value="1000"/>
+    <property name="prompt" value="Inspect trashcan"/>
+   </properties>
+  </object>
+  <object id="53" name="aloise quest end" x="384" y="112" width="32" height="16">
+   <properties>
+    <property name="id" value="aloise_quest_end"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="removeFollower" value="Aloise"/>
+    <property name="trigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="61" name="path_blocked text" x="128" y="0" width="48" height="16">
+   <properties>
+    <property name="deny" type="bool" value="true"/>
+    <property name="denyDialogue" value="This path seems to be blocked"/>
+    <property name="denyMode" value="push"/>
+    <property name="denyPush" type="int" value="15"/>
+    <property name="denySfx" value="bump"/>
+    <property name="denyShakeIntensity" type="float" value="0.01"/>
+    <property name="denyShakeMs" type="int" value="150"/>
+    <property name="id" value="path_blocked_text"/>
+    <property name="prompt" value=""/>
+    <property name="trigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="62" name="not_the_right_way text" x="128" y="320" width="48" height="16">
+   <properties>
+    <property name="deny" type="bool" value="true"/>
+    <property name="denyDialogue" value="Not the right way"/>
+    <property name="denyMode" value="push"/>
+    <property name="denyPush" type="int" value="15"/>
+    <property name="denySfx" value="bump"/>
+    <property name="denyShakeIntensity" type="float" value="0.01"/>
+    <property name="denyShakeMs" type="int" value="150"/>
+    <property name="id" value="not_the_right_way_text"/>
+    <property name="prompt" value=""/>
+    <property name="trigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="63" name="where_are_you_going text" x="0" y="144" width="16" height="48">
+   <properties>
+    <property name="deny" type="bool" value="true"/>
+    <property name="denyDialogue" value="Where are you going??"/>
+    <property name="denyMode" value="push"/>
+    <property name="denyPush" type="int" value="15"/>
+    <property name="denySfx" value="bump"/>
+    <property name="denyShakeIntensity" type="float" value="0.01"/>
+    <property name="denyShakeMs" type="int" value="150"/>
+    <property name="id" value="where_are_you_going_text"/>
+    <property name="prompt" value=""/>
+    <property name="trigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="83" name="old man" x="48" y="144" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="OOOOOUUUUUUGGHHH.."/>
+    <property name="dialogue2" value="The old man doesn't seem to acknowledge your presence"/>
+    <property name="id" value="old_man"/>
+    <property name="muteMusic" type="bool" value="true"/>
+    <property name="preSfx" value="old_man"/>
+    <property name="preSfxBase" type="int" value="25"/>
+    <property name="preSfxOnce" type="bool" value="true"/>
+    <property name="prompt" value="Speak with the old man"/>
+   </properties>
+  </object>
+  <object id="85" name="cars traffic" x="68.7273" y="139.998" width="91.9447" height="26.0032">
+   <properties>
+    <property name="dialogue" value="It's stuck"/>
+    <property name="dialogue10" value="I just wanted to experiment"/>
+    <property name="dialogue2" value="That's what she said.."/>
+    <property name="dialogue2Speaker" value="Napper"/>
+    <property name="dialogue3" value="..."/>
+    <property name="dialogue4" value="I know, that was so unnecessary"/>
+    <property name="dialogue4Speaker" value="Napper"/>
+    <property name="dialogue5" value="I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry"/>
+    <property name="dialogue5Speaker" value="Napper"/>
+    <property name="id" value="cars_traffic"/>
+    <property name="muteMusic" type="bool" value="true"/>
+    <property name="prompt" value="Inspect traffic"/>
+   </properties>
+  </object>
+  <object id="88" name="car traffic zone" x="64" y="127.946" width="105.667" height="48.1074">
+   <properties>
+    <property name="id" value="car_traffic_zone"/>
+    <property name="trigger" type="bool" value="true"/>
+    <property name="zoneFadeInMs" type="int" value="250"/>
+    <property name="zoneFadeOutMs" type="int" value="350"/>
+    <property name="zoneLoop" type="bool" value="true"/>
+    <property name="zoneSfx" value="traffic"/>
+    <property name="zoneVolume" type="float" value="0.35"/>
+   </properties>
+  </object>
+  <object id="90" name="npc_aloise" x="104" y="232">
+   <properties>
+    <property name="choice1AddFollower" value="Aloise"/>
+    <property name="choice1Dialogue" value="You're so sweeett"/>
+    <property name="choice1MarkHelped" value="Aloise"/>
+    <property name="choice1Text" value="Guide Aloise"/>
+    <property name="choice2Dialogue" value="Don't worry!! I'll try finding my way somehow"/>
+    <property name="choice2RemoveFollower" value="Aloise"/>
+    <property name="choice2Text" value="I don't have time"/>
+    <property name="choicePrompt" value="Help Aloise?"/>
+    <property name="dialogue" value="Hey Mimi!! I forgot what to do, so I'm kind of just standing here in the middle of nowhere.."/>
+    <property name="id" value="Aloise"/>
+    <property name="npcId" value="Aloise"/>
+    <property name="prompt" value="Talk to Aloise"/>
+    <property name="speaker" value="Aloise"/>
+    <property name="spriteKey" value="npc_aloise"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" name="npc_glad" x="264" y="136">
+   <properties>
+    <property name="Id" value="Glad"/>
+    <property name="aloiseFollowerChoice1Dialogue" value="Really guys? I swear you both are praying for my downfall 😭😭"/>
+    <property name="aloiseFollowerChoice1PostDialogue" value="DO YOU SEE HOW THIN THIS IS?"/>
+    <property name="aloiseFollowerChoice2Dialogue" value="Not badd, I'll tell you guys how it goes"/>
+    <property name="aloiseFollowerChoice2PostDialogue" value="It's going well thanks to the both of you!! Appreciate it :)"/>
+    <property name="aloiseFollowerDialogue" value="Psst.."/>
+    <property name="aloiseFollowerDialogue2" value="I have a stalker and I need help hiding. Don't ask any follow-up questions"/>
+    <property name="bothFollowersChoice1Dialogue" value="No way you guys came up with nothing better when you're 3 PEOPLE"/>
+    <property name="bothFollowersChoice1PostDialogue" value="It feels like you guys want to see me suffer"/>
+    <property name="bothFollowersChoice2Dialogue" value="Nice to see we are all on the same page. Thanks guys!!"/>
+    <property name="bothFollowersChoice2PostDialogue" value="Hey guys, I'm feeling really confident about this spot. I haven't even seen my stalker"/>
+    <property name="bothFollowersDialogue" value="Psst.."/>
+    <property name="bothFollowersDialogue2" value="I have a stalker and I need help hiding. Don't ask any follow-up questions"/>
+    <property name="choice1Dialogue" value="Uhh.. Okayy? 😭"/>
+    <property name="choice1HelpScore" type="int" value="-5"/>
+    <property name="choice1MarkHelped" value="Glad"/>
+    <property name="choice1PostDialogue" value="I'm gonna get found instantly bro 😭😭😭"/>
+    <property name="choice1Text" value="Lamp post"/>
+    <property name="choice1Waypoints" value="npc_glad_lamp_wp1, npc_glad_lamp_wp2, npc_glad_lamp_wp3"/>
+    <property name="choice2Dialogue" value="I'll head there, thanks!"/>
+    <property name="choice2HelpScore" type="int" value="10"/>
+    <property name="choice2MarkHelped" value="Glad"/>
+    <property name="choice2PostDialogue" value="This is a nice hiding spot, thanks"/>
+    <property name="choice2Text" value="Alley"/>
+    <property name="choice2Waypoints" value="npc_glad_alley_wp1, npc_glad_alley_wp2, npc_glad_alley_wp3, npc_glad_alley_wp4, npc_glad_alley_wp5"/>
+    <property name="choicePrompt" value="Where should Glad hide?"/>
+    <property name="dialogue" value="Psst.."/>
+    <property name="dialogue2" value="I have a stalker and I need help hiding. Don't ask any follow-up questions"/>
+    <property name="npcId" value="Glad"/>
+    <property name="prompt" value="Talk with Glad"/>
+    <property name="sagaFollowerChoice1Dialogue" value="No this is crazy.. How did you even get Saga in on this 😭"/>
+    <property name="sagaFollowerChoice1PostDialogue" value="Saga, you better be prepared to fight off my stalker if they come"/>
+    <property name="sagaFollowerChoice2Dialogue" value="Got it, so I'll hide behind there. Thank god I'm not as tall as you Saga"/>
+    <property name="sagaFollowerChoice2PostDialogue" value="Oh me? I'm chilling, thanks for asking"/>
+    <property name="sagaFollowerDialogue" value="Psst.."/>
+    <property name="sagaFollowerDialogue2" value="I have a stalker and I need help hiding. Don't ask any follow-up questions"/>
+    <property name="speaker" value="Glad"/>
+    <property name="spriteKey" value="npc_glad"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="110" name="npc_glad_at_lamppost" x="200" y="88">
+   <properties>
+    <property name="Id" value="npc_glad_at_lampost"/>
+    <property name="dialogue" value="😭😭😭"/>
+    <property name="npcId" value="npc_glad_at_lampost"/>
+    <property name="requiresChoiceId" value="Glad"/>
+    <property name="requiresChoiceValue" type="int" value="1"/>
+    <property name="speaker" value="Glad"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="npc_glad_at_alley" x="328" y="72">
+   <properties>
+    <property name="Id" value="npc_glad_at_alley"/>
+    <property name="dialogue" value="This is a nice hiding spot, thanks"/>
+    <property name="npcId" value="npc_glad_at_alley"/>
+    <property name="prompt" value="Check on Glad"/>
+    <property name="requiresChoiceId" value="Glad"/>
+    <property name="requiresChoiceValue" type="int" value="2"/>
+    <property name="speaker" value="Glad"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" x="448.75" y="17.25" width="16" height="6.75">
+   <properties>
+    <property name="dialogue" value="My name is Bob"/>
+    <property name="dialogue2" value="What? Not even a hi Bob?"/>
+    <property name="dialogue3" value="So rude..."/>
+    <property name="id" value="Stalker"/>
+    <property name="prompt" value="Whos this guy"/>
+    <property name="speaker" value="Bob"/>
+   </properties>
+  </object>
+  <object id="117" name="Neo Tokyo" x="384" y="96" width="32" height="16">
+   <properties>
+    <property name="dialogue" value="This place seems to be really crowded of people."/>
+    <property name="dialogue2" value="Definitely not just going in there because napper is too lazy with making an inside area for it"/>
+    <property name="prompt" value="Inspect Neo Tokyo"/>
+    <property name="sequenceDialogue" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="123" name="Creator after" x="16" y="320" width="16" height="16">
+   <properties>
+    <property name="dialogue" value="Ahh yes, this was your doing wasn't it?"/>
+    <property name="dialogue2" value="I'm very much grateful, player. I'll give you some help with reaching the end"/>
+    <property name="dialogue3" value="The true end."/>
+    <property name="helpScore" type="int" value="10"/>
+    <property name="id" value="city_help_after"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="prompt" value="Inspect ???"/>
+    <property name="sequenceDialogue" type="bool" value="true"/>
+    <property name="speaker" value="Creator"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
