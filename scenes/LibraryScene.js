@@ -200,7 +200,7 @@ export default class LibraryScene extends BaseExploreScene {
     this._lastMusicMood = mood;
 
     if (mood === "sad") {
-      this.setSceneMusic("library_sad", { volume: 0.4, loop: true });
+      this.setSceneMusic("library_lost", { volume: 0.4, loop: true });
     } else {
       this.setSceneMusic("library_happy", { volume: 0.4, loop: true });
     }
@@ -512,3 +512,4 @@ export default class LibraryScene extends BaseExploreScene {
     this.dialogue.start(script, this.keys, () => this._updateHUD());
   }
 }
+
