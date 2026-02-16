@@ -69,7 +69,7 @@ export default class ForestScene extends BaseExploreScene {
       playerBody: { w: 10, h: 10, ox: 3, oy: 6 },
     });
 
-    this.setSceneMusic("forest", { volume: 0.4, loop: true });
+    this.setSceneMusic("forest", { volume: 0.2, loop: true });
 
     this._applyPoints();
 
@@ -393,3 +393,4 @@ export default class ForestScene extends BaseExploreScene {
     this.dialogue.start(script, this.keys);
   }
 }
+
