@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="sprout_objects_tileset_16" tilewidth="16" tileheight="16" tilecount="384" columns="64">
- <image source="../../../../sprout_objects_tileset_16.png" width="1024" height="96"/>
-</tileset>
