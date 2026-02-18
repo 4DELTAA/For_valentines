@@ -22,7 +22,7 @@ export default class EpilogueSpeedrunScene extends Phaser.Scene {
         "But then he laughs.",
         "",
         "Speed can be its own kind of courage.",
-        ","
+        ""
         `TimePassed: ${GameState.timePassed}`,
         "",
         "ENDING: SPEEDRUN",
